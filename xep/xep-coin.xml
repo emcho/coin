@@ -116,8 +116,8 @@
     accordingly.</p>
 
 
-    <p>Once in a call, call members and mixers can use Coin to exchange
-    <cite>RFC 4575</cite> conference information indicating what participants
+    <p>Once in a call, participants and mixers can use Coin to exchange
+    &rfc4575; conference information indicating what participants
     are currently on the call and what their status is.</p>
   </section1>
   <section1 topic='Creating a conference call' anchor='call-create'>
