@@ -86,7 +86,9 @@
       signalling and media. Other specifications refer to mixers and focus
       agents as two distinct entities but we find this separation to be
       unnecessary in the current specification and view both as a single logical
-      entity</dd>
+      entity. This entity may be a person hosting the conference and doing the mixing
+      or a dedicated entity to which participants connect in order to establish a conference.
+      For the purposes of this specification, both scenarios are equivalent.</dd>
     </di>
   </dl>
 </section1>
