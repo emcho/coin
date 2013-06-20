@@ -74,8 +74,8 @@
     <p>A conference participant exchanges Coin IQs only with the agent they
     have established a session with. This means that it can also be used in
     cases where only a subset of the users on a call are using XMPP while others
-    are connected via alternative mechanisms such as SIP's conference
-    package &rfc4575;</p>
+    are connected via alternative mechanisms such as SIP conferencing as defined
+    in &rfc4579;</p>
   </section1>
   <section1 topic='Terminology' anchor='terms'>
   <dl>
@@ -104,7 +104,7 @@
       <li>Impose no requirements on agents joining the call other than those
       necessary to establish a regular one-to-one call.</li>
       <li>Allow straightforward interoperability with other conferencing
-        mechanisms such as <cite>RFC 4575</cite>; or &xep0272;</li>
+        mechanisms such as &rfc4579; or &xep0272;</li>
     </ol>
   </section1>
   <section1 topic='How It Works' anchor='howitworks'>
