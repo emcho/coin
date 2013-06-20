@@ -99,7 +99,7 @@
       <li>Provide a means for mixer agents in tightly coupled
         conferences to advertise call and member state information to the call
         participants.</li>
-      <li>Reuse as much as possible the existing format and XML schema already
+      <li>Reuse the existing format and XML schema already
         defined in <cite>RFC 4575</cite>.</li>
       <li>Impose no requirements on agents joining the call other than those
       necessary to establish a regular one-to-one call.</li>
