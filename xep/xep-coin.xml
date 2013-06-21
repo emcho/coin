@@ -140,7 +140,7 @@
       <description xmlns='urn:xmpp:jingle:apps:stub:0'/>
       <transport xmlns='urn:xmpp:jingle:transports:stub:0'/>
     </content>
-    <conference-info isfocus='true'/>
+    <conference-info xmlns='urn:xmpp:coin:1' isfocus='true'/>
   </jingle>
 </iq>
     ]]></code>
@@ -247,7 +247,7 @@
 
   <section1 topic='Determining Support' anchor='support'>
     <p>If an entity supports Coin, it SHOULD advertise that fact by returning
-    a feature of "urn:xmpp:coin" in response to a &xep0030;
+    a feature of "urn:xmpp:coin:1" in response to a &xep0030;
     information request.</p>
     <example caption="Service Discovery Information Request"><![CDATA[
 <iq from='kingclaudius@shakespeare.lit/castle'
@@ -263,7 +263,7 @@
     to='kingclaudius@shakespeare.lit/castle'
     type='result'>
   <query xmlns='http://jabber.org/protocol/disco#info'>
-    <feature var='urn:xmpp:coin'/>
+    <feature var='urn:xmpp:coin:1'/>
   </query>
 </iq>
     ]]></example>
@@ -296,8 +296,8 @@
 
 <xs:schema
     xmlns:xs='http://www.w3.org/2001/XMLSchema'
-    targetNamespace='urn:xmpp:jingle:apps:coin:1'
-    xmlns='urn:xmpp:jingle:apps:coin:1'
+    targetNamespace='urn:xmpp:coin:1'
+    xmlns='urn:xmpp:coin:1'
     elementFormDefault='qualified'>
 
   <xs:annotation>
