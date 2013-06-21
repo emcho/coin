@@ -166,6 +166,7 @@
     id='zid615d9'
     to='juliet@capulet.lit/balcony'
     type='set'>
+    <jingle xmlns='urn:xmpp:jingle:1' sid='a73sjjvkla37jfea'/>
     <conference-info xmlns="urn:ietf:params:xml:ns:conference-info"
                      entity="xmpp:romeo@monague.lit/orchard"
                      state="full"
@@ -241,6 +242,8 @@
 
   ]]></code>
 
+  <p>The IQ message containing the conference info document MAY also contain a jingle element with the
+  session id attribute indicting the session to which the conference information refers to.</p>
 
   </section1>
 
