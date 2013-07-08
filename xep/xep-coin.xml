@@ -282,16 +282,6 @@
     The authors are hence currently unaware of any other Coin specific security
     considerations</p>
   </section1>
-  <section1 topic='Open Issues' anchor='issues'>
-    <p>This document provides a basic description of a simple way to support
-    tightly coupled conference calls. It is in many respects still a stub and a
-    number of open issues require the attention of the community:</p>
-    <ol>
-      <li>Need to define best practices for user agents to easily determine
-      whether the request of user to establish a conference call should result
-      in a Muji or a Coin conference.</li>
-    </ol>
-  </section1>
   <section1 topic='XML Schemas' anchor='schema'>
       <section2 topic='Advertising Conf Calls' anchor='schema-discover'>
     <code><![CDATA[
