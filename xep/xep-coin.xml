@@ -140,17 +140,17 @@
       <description xmlns='urn:xmpp:jingle:apps:stub:0'/>
       <transport xmlns='urn:xmpp:jingle:transports:stub:0'/>
     </content>
-    <conference-info xmlns='urn:xmpp:coin:1' isfocus='true'/>
+    <conference xmlns='urn:xmpp:coin:1' isfocus='true'/>
   </jingle>
 </iq>
     ]]></code>
     <p>Similarly mixers being dialed by new participants SHOULD indicate the
-    nature of the call by including the &lt;conference-info/&gt; element into
+    nature of the call by including the &lt;conference/&gt; element into
     the Jingle session-accept message.</p>
     <p>Finally, when transforming an existing one-to-one session into a
      conference or vice-versa a mixer SHOULD send a Jingle session-info message
-     with the appropriate &lt;conference-info/&gt; element. </p>
-    <p>Note that presence of the &lt;conference-info/&gt; element is only
+     with the appropriate &lt;conference/&gt; element. </p>
+    <p>Note that presence of the &lt;conference/&gt; element is only
     determines whether the party sending it is currently acting as a mixer or
     not. If multiple peers in a call are independently acting as mixers they
     should all indicate their status accordingly.</p>
@@ -310,7 +310,7 @@
     </xs:documentation>
   </xs:annotation>
 
-  <xs:element name="conference-info" type="empty">
+  <xs:element name="conference" type="empty">
     <xs:complexType>
       <xs:attribute name='isfocus' type='xs:boolean' required='true'/>
     </xs:complexType>
